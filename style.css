@@ -1,0 +1,231 @@
+/** @format */
+
+body {
+	font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
+		Arial, sans-serif;
+}
+
+.mp-nav-link {
+	background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+	border: 1px solid var(--unnamed-color-f6f6f6);
+	background: #ffffff 0% 0% no-repeat padding-box;
+	border: 1px solid #f6f6f6;
+	opacity: 1;
+	font-size: 14px;
+}
+
+.mp-btn-register-account,
+.mp-btn-login-account {
+	background-color: #009ee3;
+	color: #fff;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-weight: 400;
+	padding: 0 24px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.mp-btn-login-account {
+	color: #009ee3;
+	background-color: rgba(71, 154, 209, 0.15);
+}
+
+.mp-dropdown-toggle {
+	font-size: 14px;
+	margin-right: 20px;
+}
+
+.mp-section-one {
+	background-image: url('https://i.ibb.co/6wxn0Ff/fondo1.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+	height: 100vh;
+}
+
+.mp-img-ado {
+	width: 136px;
+	position: absolute;
+	left: 0;
+	margin-top: 14px;
+}
+
+.mp-section-one-container-one {
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+.mp-section-one-col-one {
+}
+
+.mp-section-one-col-two {
+	text-align: right;
+}
+
+.mp-section-one-col-two img {
+	width: 550px;
+	max-width: 100%;
+}
+
+.mp-section-one-col-one > h1 {
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #333333;
+}
+
+.mp-section-one-col-one > p {
+	margin-bottom: 60px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #3c3c3c;
+}
+
+.mp-form-control {
+	border-radius: 4px !important;
+}
+
+.mp-btn-input-q-p {
+	background-color: #1e9fe3;
+	border: 1px solid #1e9fe3;
+	color: #fff;
+	margin-left: 25px !important;
+	border-radius: 4px !important;
+	padding: 0px 20px;
+	font-size: 13px;
+}
+
+.mp-control-content {
+	text-align: right;
+	position: relative;
+	margin-top: 10px;
+	margin-left: -8px;
+}
+
+.mp-carousel-control {
+	background-color: #d1d1d1;
+	height: 30px;
+	width: 30px;
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid #c5c5c5;
+}
+
+.mp-carousel-control > .carousel-control-prev-icon,
+.mp-carousel-control > .carousel-control-next-icon {
+	width: 10px;
+}
+
+.mp-title-two {
+	color: #2e3277;
+	font-size: 34px;
+	margin-bottom: 50px;
+}
+
+.mp-card {
+	background-color: #f6f6f6;
+	padding: 10px;
+}
+
+.mp-card-title {
+	font-size: 17px;
+	color: #333333;
+	font-weight: 400;
+	margin-top: 5px;
+}
+
+.mp-card-title-number {
+	font-size: 17px;
+	margin-bottom: 0;
+}
+
+.mp-card-title-cuotas {
+	font-size: 10px;
+	font-weight: 200;
+	margin-bottom: 0;
+}
+
+.mp-section-two-col-two {
+	text-align: right;
+	margin-top: 150px;
+}
+
+.mp-card-percentage-content {
+	text-align: center;
+}
+
+.mp-card-percentage {
+	border: none;
+}
+
+.mp-card-percentage > .card-body {
+	box-shadow: 0px 3px 11px #00000015;
+}
+
+.mp-title-tree-content {
+	position: relative;
+}
+
+.mp-title-tree {
+	color: #2e3277;
+	font-size: 34px;
+	position: absolute;
+	bottom: 0;
+	margin-right: 40px;
+}
+
+.mp-section-two {
+	margin-top: -100px;
+}
+
+.mp-card-title-percentage-x {
+	margin-top: 25px;
+	font-size: 33px;
+}
+
+.mp-card-title-percentage-x-p {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.mp-card-mercado-libre-content {
+	border: none;
+}
+
+.mp-card-mercado-libre {
+	background-color: #fff;
+	text-align: left;
+}
+
+.mp-card-mercado-libre-img {
+	padding-left: 5px;
+}
+
+.mp-card-mercado-libre-title {
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+.mp-card-mercado-libre-sub-title {
+	font-size: 12px;
+	margin-bottom: 0px;
+	line-height: 14px;
+}
+
+.mp-section-tree {
+	background-image: url('https://i.ibb.co/bHDSBRq/fondo2.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+}
+
+.mp-section-tree-content {
+}
+
+.mp-card-beneficios {
+	box-shadow: 0px 3px 11px #00000015;
+	text-align: center;
+	border: none;
+}

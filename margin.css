@@ -1,0 +1,13 @@
+/** @format */
+
+.container {
+	max-width: 1185px;
+}
+
+.p20 {
+	padding: 20px;
+}
+
+.p0 {
+	padding: 0;
+}
