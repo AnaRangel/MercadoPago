@@ -317,3 +317,79 @@ body {
 	color: #2e3277;
 	padding: 6px;
 }
+
+@media only screen and (max-width: 768px) {
+	.mp-btn-register-account,
+	.mp-btn-login-account {
+		padding: 10px 24px;
+		margin: 10px 0px;
+	}
+	.mp-section-one-col-one {
+		text-align: center;
+	}
+	.mp-img-ado {
+		display: none;
+	}
+	.mp-section-one {
+		background-size: cover;
+		height: auto;
+	}
+	.mp-section-one-col-one > h1 {
+		font-size: 37px;
+	}
+	.mp-title-two {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.mp-card-title-number {
+		font-size: 16px;
+	}
+	.mp-card-title-cuotas {
+		font-size: 9px;
+	}
+	.mp-section-two-col-two {
+		margin-top: 20px;
+		text-align: center;
+	}
+	.mp-title-tree {
+		color: #2e3277;
+		font-size: 27px;
+		position: relative;
+		bottom: 0;
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+	.mp-section-tree {
+		height: auto;
+	}
+	.mp-card-beneficios {
+		margin: 10px;
+	}
+	.mp-tree-title {
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	.mp-card-beneficios {
+		height: 350px;
+	}
+	.mp-col-four {
+		margin-top: 0px;
+		text-align: center;
+	}
+	.mp-title-four-img {
+		position: relative;
+		right: 0px;
+		margin-top: 0px;
+		font-size: 25px;
+		font-weight: 300;
+		text-align: center;
+	}
+	.mp-section-five {
+		height: auto;
+		margin-top: -50px;
+	}
+	.mp-section-five-col-3 {
+		padding-top: 20px;
+		text-align: center;
+	}
+}
