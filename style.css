@@ -40,14 +40,14 @@ body {
 	background-image: url('https://i.ibb.co/6wxn0Ff/fondo1.png');
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 100% auto;
-	height: 100vh;
+	background-size: 100% 100%;
+	height: 650px;
 }
 
 .mp-img-ado {
 	width: 136px;
 	position: absolute;
-	left: 0;
+	margin-left: -147px;
 	margin-top: 14px;
 }
 
@@ -149,7 +149,7 @@ body {
 
 .mp-section-two-col-two {
 	text-align: right;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .mp-card-percentage-content {
@@ -177,7 +177,7 @@ body {
 }
 
 .mp-section-two {
-	margin-top: -100px;
+	margin-top: 0px;
 }
 
 .mp-card-title-percentage-x {
@@ -218,14 +218,102 @@ body {
 	background-image: url('https://i.ibb.co/bHDSBRq/fondo2.png');
 	background-repeat: no-repeat;
 	background-position: center top;
-	background-size: 100% auto;
+	background-size: 100% 100%;
+	height: 800px;
+	margin-top: -250px;
 }
 
 .mp-section-tree-content {
+	padding-top: 250px;
 }
 
 .mp-card-beneficios {
 	box-shadow: 0px 3px 11px #00000015;
 	text-align: center;
 	border: none;
+	height: 300px;
+}
+
+.mp-tree-img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mp-tree-title {
+	font-size: 17px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.mp-tree-title-sub {
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.mp-tree-img-v {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+}
+
+.mp-col-four {
+	margin-top: 100px;
+}
+
+.mp-title-four-img-content {
+	position: relative;
+}
+
+.mp-title-four-img {
+	position: absolute;
+	right: 35px;
+	margin-top: 60px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.mp-title-four-img > span {
+	font-weight: 500;
+}
+
+.mp-section-five {
+	background-image: url('https://i.ibb.co/p10QKyv/fondo3.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% 100%;
+	height: 600px;
+	margin-top: -150px;
+}
+
+.mp-section-five-content {
+	padding-top: 100px;
+}
+
+.mp-section-five-col-3 {
+	padding-top: 200px;
+	text-align: right;
+}
+
+.mp-footer-content span {
+	font-size: 12px;
+}
+
+.mp-footer-content hr {
+	border: 1px solid #fff;
+}
+
+.mp-footer-content {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	color: #2e3277;
+}
+
+.mp-footer-icon {
+	float: right;
+	font-size: 16px !important;
+}
+
+.mp-footer-icon i {
+	color: #2e3277;
+	padding: 6px;
 }
