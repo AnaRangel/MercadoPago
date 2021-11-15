@@ -2,238 +2,249 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Mercado Pago</title>
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-			crossorigin="anonymous"
-		/>
-		<link
-			href="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.17.0/mercadopago/favicon.svg"
-			rel="icon"
-			data-head-react="true"
-		/>
-		<link
-			href="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.17.0/mercadopago/180x180.png"
-			rel="apple-touch-icon"
-			data-head-react="true"
-		/>
-		<link
-			href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="margin.css" />
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-lg navbar-light mp-nav-link">
-			<div class="container">
-				<a class="navbar-brand" href="#"
-					><img
-						src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.17.0/mercadopago/logo__large@2x.png"
-						alt=""
-						width="142"
-						height="37"
-						class="d-inline-block align-text-top"
-				/></a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-					<div class="d-flex">
-						<ul class="navbar-nav">
-							<li class="nav-item dropdown">
-								<a
-									class="nav-link dropdown-toggle mp-dropdown-toggle"
-									href="#"
-									id="navbarDropdown"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									Cuenta Mercado Pago
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
-									<li><hr class="dropdown-divider" /></li>
-									<li>
-										<a class="dropdown-item" href="#">Something else here</a>
-									</li>
-								</ul>
-							</li>
-							<li class="nav-item dropdown">
-								<a
-									class="nav-link dropdown-toggle mp-dropdown-toggle"
-									href="#"
-									id="navbarDropdown"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									Herramienta para vendedor
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li>
-										<a class="dropdown-item" href="#">Another action</a>
-									</li>
-									<li><hr class="dropdown-divider" /></li>
-									<li>
-										<a class="dropdown-item" href="#">Something else here</a>
-									</li>
-								</ul>
-							</li>
-							<button type="button" class="btn mp-btn-login-account">
-								Ingresa
-							</button>
-							<button type="button" class="btn mp-btn-register-account">
-								Crea tu cuenta
-							</button>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Ayuda</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
-		<section class="mp-section-one">
-			<div class="container mp-section-one-container-one">
-				<div class="row">
-					<div class="col-md-5 mp-section-one-col-one p20">
-						<img
-							class="mp-img-ado"
-							src="https://i.ibb.co/X4Vww6q/Grupo-4694-2x.png"
-						/>
-						<h1>Transforma tu celular en un punto de venta</h1>
-						<p>
-							Cóbrales a tus clientes en todas partes con el lector de tarjetas
-							de MercadoPago y tu smartphone o tablet.
-						</p>
-						<div class="input-group mb-3">
-							<input
-								type="text"
-								class="form-control mp-form-control"
-								placeholder="Ingresa tu e-mail..."
-								aria-label="Ingresa tu e-mail..."
-								aria-describedby="basic-addon2"
-							/>
-							<span class="input-group-text mp-btn-input-q-p" id="basic-addon2"
-								>Quiero probarlo</span
-							>
-						</div>
-					</div>
-					<div class="col-md-7 mp-section-one-col-two p20">
-						<img src="https://i.ibb.co/8BXMm1F/Grupo-4680-2x.png" />
-					</div>
-				</div>
-			</div>
-		</section>
 
-		<section class="mp-section-two">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 p20">
-						<h3 class="mp-title-two">Ofrece pagar en cuotas</h3>
-						<div class="row">
-							<div class="col-1">
-								<div class="mp-control-content">
-									<button
-										class="carousel-control-prev mp-carousel-control"
-										type="button"
-										data-bs-target="#carouselExampleControlsNoTouching"
-										data-bs-slide="prev"
-									>
-										<span
-											class="carousel-control-prev-icon"
-											aria-hidden="true"
-										></span>
-										<span class="visually-hidden">Previous</span>
-									</button>
-								</div>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Mercado Pago</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<link href="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.17.0/mercadopago/favicon.svg" rel="icon"
+		data-head-react="true" />
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="margin.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light mp-nav-link">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img
+					src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.17.0/mercadopago/logo__large@2x.png" alt=""
+					width="142" height="37" class="d-inline-block align-text-top" /></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+				<div class="d-flex">
+					<ul class="navbar-nav">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle mp-dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Cuenta Mercado Pago
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<hr class="dropdown-divider" />
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle mp-dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Herramienta para vendedor
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li>
+									<a class="dropdown-item" href="#">Another action</a>
+								</li>
+								<li>
+									<hr class="dropdown-divider" />
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<button type="button" class="btn mp-btn-login-account">
+							Ingresa
+						</button>
+						<button type="button" class="btn mp-btn-register-account">
+							Crea tu cuenta
+						</button>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Ayuda</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="mp-section-one">
+		<div class="container mp-section-one-container-one">
+			<div class="row">
+				<div class="col-md-5 mp-section-one-col-one p20">
+					<img class="mp-img-ado" src="https://i.ibb.co/X4Vww6q/Grupo-4694-2x.png" />
+					<h1>Transforma tu celular en un punto de venta</h1>
+					<p>
+						Cóbrales a tus clientes en todas partes con el lector de tarjetas
+						de MercadoPago y tu smartphone o tablet.
+					</p>
+					<div class="input-group mb-3">
+						<input type="text" class="form-control mp-form-control" placeholder="Ingresa tu e-mail..."
+							aria-label="Ingresa tu e-mail..." aria-describedby="basic-addon2" />
+						<span class="input-group-text mp-btn-input-q-p" id="basic-addon2">Quiero probarlo</span>
+					</div>
+				</div>
+				<div class="col-md-7 mp-section-one-col-two p20">
+					<img src="https://i.ibb.co/8BXMm1F/Grupo-4680-2x.png" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mp-section-two">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 p20">
+					<h3 class="mp-title-two">Ofrece pagar en cuotas</h3>
+					<div class="row">
+						<div class="col-1">
+							<div class="mp-control-content">
+								<button class="carousel-control-prev mp-carousel-control" type="button"
+									data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</button>
 							</div>
-							<div class="col-10">
-								<div
-									id="carouselExampleControlsNoTouching"
-									class="carousel slide"
-									data-bs-touch="false"
-									data-bs-interval="false"
-								>
-									<div class="carousel-inner">
-										<div class="carousel-item active">
-											<div class="card">
-												<div class="card-body mp-card">
-													<div class="row">
-														<div class="col-2">
-															<img
-																src="https://i.ibb.co/NL5T5xS/Imagen-9.png"
-															/>
-														</div>
-														<div class="col-8">
-															<h3 class="mp-card-title">
-																Tarjeta de Credito Visa
-															</h3>
-														</div>
-														<div class="col-2">
-															<h3 class="mp-card-title-number">x12</h3>
-															<h3 class="mp-card-title-cuotas">cuotas</h3>
-														</div>
+						</div>
+						<div class="col-10">
+							<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+								data-bs-interval="false">
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<div class="card">
+											<div class="card-body mp-card">
+												<div class="row">
+													<div class="col-2">
+														<img src="https://i.ibb.co/NL5T5xS/Imagen-9.png" />
+													</div>
+													<div class="col-8">
+														<h3 class="mp-card-title">
+															Tarjeta de Credito Visa
+														</h3>
+													</div>
+													<div class="col-2">
+														<h3 class="mp-card-title-number">x12</h3>
+														<h3 class="mp-card-title-cuotas">cuotas</h3>
 													</div>
 												</div>
 											</div>
 										</div>
-										<div class="carousel-item">
-											<div class="card">
-												<div class="card-body mp-card">
-													<div class="row">
-														<div class="col-2">
-															<img
-																src="https://i.ibb.co/ZH4P3Y4/Grupo-4699.png"
-															/>
-														</div>
-														<div class="col-8">
-															<h3 class="mp-card-title">
-																Tarjeta de MercadoPago
-															</h3>
-														</div>
-														<div class="col-2">
-															<h3 class="mp-card-title-number">x12</h3>
-															<h3 class="mp-card-title-cuotas">cuotas</h3>
-														</div>
+									</div>
+									<div class="carousel-item">
+										<div class="card">
+											<div class="card-body mp-card">
+												<div class="row">
+													<div class="col-2">
+														<img src="https://i.ibb.co/ZH4P3Y4/Grupo-4699.png" />
+													</div>
+													<div class="col-8">
+														<h3 class="mp-card-title">
+															Cartão MercadoLivre
+														</h3>
+													</div>
+													<div class="col-2">
+														<h3 class="mp-card-title-number">x24</h3>
+														<h3 class="mp-card-title-cuotas">cuotas</h3>
 													</div>
 												</div>
 											</div>
 										</div>
-										<div class="carousel-item">
-											<div class="card">
-												<div class="card-body mp-card">
-													<div class="row">
-														<div class="col-2">
-															<img
-																src="https://i.ibb.co/X5ksnrw/Grupo-4695.png"
-															/>
-														</div>
-														<div class="col-8">
-															<h3 class="mp-card-title">Tarjeta MasterCard</h3>
-														</div>
-														<div class="col-2">
-															<h3 class="mp-card-title-number">x12</h3>
-															<h3 class="mp-card-title-cuotas">cuotas</h3>
-														</div>
+									</div>
+									<div class="carousel-item">
+										<div class="card">
+											<div class="card-body mp-card">
+												<div class="row">
+													<div class="col-2">
+														<img src="https://i.ibb.co/X5ksnrw/Grupo-4695.png" />
+													</div>
+													<div class="col-8">
+														<h3 class="mp-card-title">Tarjeta MasterCard</h3>
+													</div>
+													<div class="col-2">
+														<h3 class="mp-card-title-number">x12</h3>
+														<h3 class="mp-card-title-cuotas">cuotas</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="card">
+											<div class="card-body mp-card">
+												<div class="row">
+													<div class="col-2">
+														<img src="https://i.ibb.co/2tTPX5Q/round-rect.png" />
+													</div>
+													<div class="col-8">
+														<h3 class="mp-card-title">American Express</h3>
+													</div>
+													<div class="col-2">
+														<h3 class="mp-card-title-number">x15</h3>
+														<h3 class="mp-card-title-cuotas">cuotas</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="card">
+											<div class="card-body mp-card">
+												<div class="row">
+													<div class="col-2">
+														<img src="https://i.ibb.co/PGHfM5W/Grupo-4696.png" />
+													</div>
+													<div class="col-8">
+														<h3 class="mp-card-title">Hipercard</h3>
+													</div>
+													<div class="col-2">
+														<h3 class="mp-card-title-number">x12</h3>
+														<h3 class="mp-card-title-cuotas">cuotas</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="card">
+											<div class="card-body mp-card">
+												<div class="row">
+													<div class="col-2">
+														<img src="https://i.ibb.co/V9sWrM2/Grupo-4697.png" />
+													</div>
+													<div class="col-8">
+														<h3 class="mp-card-title">Diners</h3>
+													</div>
+													<div class="col-2">
+														<h3 class="mp-card-title-number">x12</h3>
+														<h3 class="mp-card-title-cuotas">cuotas</h3>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="carousel-item">
+										<div class="card">
+											<div class="card-body mp-card">
+												<div class="row">
+													<div class="col-2">
+														<img src="https://i.ibb.co/LYV96CD/Grupo-4698.png">
+													</div>
+													<div class="col-8">
+														<h3 class="mp-card-title">Elo</h3>
+													</div>
+													<div class="col-2">
+														<h3 class="mp-card-title-number">x12</h3>
+														<h3 class="mp-card-title-cuotas">cuotas</h3>
 													</div>
 												</div>
 											</div>
@@ -241,228 +252,192 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-1">
-								<div class="mp-control-content">
-									<button
-										class="carousel-control-next mp-carousel-control"
-										type="button"
-										data-bs-target="#carouselExampleControlsNoTouching"
-										data-bs-slide="next"
-									>
-										<span
-											class="carousel-control-next-icon"
-											aria-hidden="true"
-										></span>
-										<span class="visually-hidden">Next</span>
-									</button>
-								</div>
-							</div>
 						</div>
-					</div>
-					<div class="col-md-6 p20 mp-section-two-col-two">
-						<div class="row">
-							<div class="col-md-6 mp-title-tree-content">
-								<h3 class="mp-title-tree">
-									Sin costos de contratación ni mantenimiento
-								</h3>
-							</div>
-							<div class="col-md-6">
-								<div class="mp-card-percentage-content">
-									<img
-										src="https://i.ibb.co/dJG6QXF/tarjeta-mercadopago-1.png"
-									/>
-									<div class="card mp-card-percentage">
-										<div class="card-body mp-card">
-											<h3 class="mp-card-title-percentage-x">X,XX%</h3>
-											<p class="mp-card-title-percentage-x-p">
-												de cada pago que recibes
-											</p>
-											<br />
-											<div class="card mp-card-mercado-libre-content">
-												<div class="card-body mp-card mp-card-mercado-libre">
-													<div class="row">
-														<div class="col-4 p0">
-															<img
-																class="mp-card-mercado-libre-img"
-																width="100%"
-																src="https://i.ibb.co/7jgGXsW/logo-mercadolibre.png"
-															/>
-														</div>
-														<div class="col-8 p0">
-															<h3 class="mp-card-mercado-libre-title">
-																¡Gratis!
-															</h3>
-															<p class="mp-card-mercado-libre-sub-title">
-																Para tus ventas de MercadoLibre
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<br /><br />
-										</div>
-									</div>
-								</div>
+						<div class="col-1">
+							<div class="mp-control-content">
+								<button class="carousel-control-next mp-carousel-control" type="button"
+									data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</button>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-
-		<section class="mp-section-tree">
-			<div class="container mp-section-tree-content">
-				<h3 class="mp-title-two">Más beneficios</h3>
-				<br />
-				<div class="row">
-					<div class="col-md-3 col-sm-6 col-6 p0-r">
-						<div class="card mp-card-beneficios">
-							<div class="card-body">
-								<img
-									class="mp-tree-img"
-									src="https://i.ibb.co/dJCJsXs/negocio.png"
-								/>
-								<h3 class="mp-tree-title">
-									Cobra tus ventas de MercadoLibre en tu local
-								</h3>
-								<p class="mp-tree-title-sub">
-									Ahora tus compradores de MercadoLibre podrán pagarte con
-									tarjeta de crédito cuando retiren el productoen tu negocio. Y
-									para ti es 100% gratis.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-6 p0-r">
-						<div class="card mp-card-beneficios">
-							<div class="card-body">
-								<img
-									class="mp-tree-img"
-									src="https://i.ibb.co/FmHBKF0/Grupo-4684.png"
-								/>
-								<h3 class="mp-tree-title">Comprobantes de pago por e-mail</h3>
-								<p class="mp-tree-title-sub">
-									Luego de pasar la tarjeta por el lector,tu cliente firmará un
-									recibo en pantalla y podrás enviárselo por e-mail.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-6 p0-r">
-						<div class="card mp-card-beneficios">
-							<div class="card-body">
-								<img
-									class="mp-tree-img"
-									src="https://i.ibb.co/YQy6Cvp/celular.png"
-								/>
-								<h3 class="mp-tree-title">
-									Controla tus ventas desde el celular
-								</h3>
-								<p class="mp-tree-title-sub">
-									¡No tienes que esperar a fin de mes! Sigue día a día el
-									resumen de tus cobros.Incluso, si fuera necesario, podrás
-									hacer devoluciones de los pagos en un solo paso.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-6 p0-r">
-						<div class="card mp-card-beneficios">
-							<div class="card-body">
-								<img
-									class="mp-tree-img-v"
-									src="https://i.ibb.co/8Mn8j45/Enmascarar-grupo-5.png"
-								/>
-								<img
-									class="mp-tree-img"
-									src="https://i.ibb.co/3McJcHK/seguridad.png"
-								/>
-								<h3 class="mp-tree-title">
-									Máxima seguridad para ti y para tus clientes
-								</h3>
-								<p class="mp-tree-title-sub">
-									Cumplimos con los más exigentes estándares de seguridad del
-									mercado. Además, evitas riesgos porque ¡no necesitas trasladar
-									dinero en efectivo de un lado a otro!
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="mp-section-four">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 p20 mp-col-four">
-						<h3 class="mp-title-two">Qué necesitas para usarlo</h3>
-						<p>
-							El lector de tarjetas de crédito es compatible con la mayoría de
-							los dispositivos Android con conexión a internet, versión 4.0.3 en
-							adelante.
-						</p>
-					</div>
-					<div class="col-md-7 p20">
-						<div class="mp-title-four-img-content">
-							<h3 class="mp-title-four-img">
-								Lo conectas por <span>Bluetooth</span><br />
-								a tu celular o tablet. ¡Y listo!
+				<div class="col-md-6 p20 mp-section-two-col-two">
+					<div class="row">
+						<div class="col-md-6 mp-title-tree-content">
+							<h3 class="mp-title-tree">
+								Sin costos de contratación ni mantenimiento
 							</h3>
-							<img src="https://i.ibb.co/PTL1W4w/img-final.png" />
+						</div>
+						<div class="col-md-6">
+							<div class="mp-card-percentage-content">
+								<img src="https://i.ibb.co/dJG6QXF/tarjeta-mercadopago-1.png" />
+								<div class="card mp-card-percentage">
+									<div class="card-body mp-card">
+										<h3 class="mp-card-title-percentage-x">X,XX%</h3>
+										<p class="mp-card-title-percentage-x-p">
+											de cada pago que recibes
+										</p>
+										<br />
+										<div class="card mp-card-mercado-libre-content">
+											<div class="card-body mp-card mp-card-mercado-libre">
+												<div class="row">
+													<div class="col-4 p0">
+														<img class="mp-card-mercado-libre-img" width="100%"
+															src="https://i.ibb.co/7jgGXsW/logo-mercadolibre.png" />
+													</div>
+													<div class="col-8 p0">
+														<h3 class="mp-card-mercado-libre-title">
+															¡Gratis!
+														</h3>
+														<p class="mp-card-mercado-libre-sub-title">
+															Para tus ventas de MercadoLibre
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<br /><br />
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<section class="mp-section-five">
-			<div class="container mp-section-five-content">
-				<div class="row">
-					<div class="col-md-5">
-						<img src="https://i.ibb.co/Xs4bp2M/cajas.png" />
-					</div>
-					<div class="col-md-2"></div>
-					<div class="col-md-5 mp-section-five-col-3">
-						<h3 class="mp-title-two">¡No te quedes en el pasado!</h3>
-						<p>
-							Solicita gratis tu lector de tarjetas de crédito. Déjanos tu
-							e-mail y te contactaremos.
-						</p>
-						<div class="input-group mb-3">
-							<input
-								type="text"
-								class="form-control mp-form-control"
-								placeholder="Ingresa tu e-mail..."
-								aria-label="Ingresa tu e-mail..."
-								aria-describedby="basic-addon2"
-							/>
-							<span class="input-group-text mp-btn-input-q-p" id="basic-addon2"
-								>Quiero probarlo</span
-							>
+	<section class="mp-section-tree">
+		<div class="container mp-section-tree-content">
+			<h3 class="mp-title-two">Más beneficios</h3>
+			<br />
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-6 p0-r">
+					<div class="card mp-card-beneficios">
+						<div class="card-body">
+							<img class="mp-tree-img" src="https://i.ibb.co/dJCJsXs/negocio.png" />
+							<h3 class="mp-tree-title">
+								Cobra tus ventas de MercadoLibre en tu local
+							</h3>
+							<p class="mp-tree-title-sub">
+								Ahora tus compradores de MercadoLibre podrán pagarte con
+								tarjeta de crédito cuando retiren el productoen tu negocio. Y
+								para ti es 100% gratis.
+							</p>
 						</div>
 					</div>
 				</div>
-				<div class="mp-footer-content">
-					<hr />
-					<span
-						>Copyright © 2021 MercadoPago S.A. Avenida Apoquindo 4800, torre 2,
-						piso 21, Las Condes, Región Metropolitana, Chile.</span
-					>
-					<span class="mp-footer-icon">
-						<i class="icon-facebook-sign"></i>
-						<i class="icon-instagram"></i>
-						<i class="icon-twitter"></i>
-						<i class="icon-linkedin-sign"></i>
-					</span>
+				<div class="col-md-3 col-sm-6 col-6 p0-r">
+					<div class="card mp-card-beneficios">
+						<div class="card-body">
+							<img class="mp-tree-img" src="https://i.ibb.co/FmHBKF0/Grupo-4684.png" />
+							<h3 class="mp-tree-title">Comprobantes de pago por e-mail</h3>
+							<p class="mp-tree-title-sub">
+								Luego de pasar la tarjeta por el lector,tu cliente firmará un
+								recibo en pantalla y podrás enviárselo por e-mail.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-6 p0-r">
+					<div class="card mp-card-beneficios">
+						<div class="card-body">
+							<img class="mp-tree-img" src="https://i.ibb.co/YQy6Cvp/celular.png" />
+							<h3 class="mp-tree-title">
+								Controla tus ventas desde el celular
+							</h3>
+							<p class="mp-tree-title-sub">
+								¡No tienes que esperar a fin de mes! Sigue día a día el
+								resumen de tus cobros.Incluso, si fuera necesario, podrás
+								hacer devoluciones de los pagos en un solo paso.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-6 p0-r">
+					<div class="card mp-card-beneficios">
+						<div class="card-body">
+							<img class="mp-tree-img-v" src="https://i.ibb.co/8Mn8j45/Enmascarar-grupo-5.png" />
+							<img class="mp-tree-img" src="https://i.ibb.co/3McJcHK/seguridad.png" />
+							<h3 class="mp-tree-title">
+								Máxima seguridad para ti y para tus clientes
+							</h3>
+							<p class="mp-tree-title-sub">
+								Cumplimos con los más exigentes estándares de seguridad del
+								mercado. Además, evitas riesgos porque ¡no necesitas trasladar
+								dinero en efectivo de un lado a otro!
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-			crossorigin="anonymous"
-		></script>
-	</body>
+	<section class="mp-section-four">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 p20 mp-col-four">
+					<h3 class="mp-title-two">Qué necesitas para usarlo</h3>
+					<p>
+						El lector de tarjetas de crédito es compatible con la mayoría de
+						los dispositivos Android con conexión a internet, versión 4.0.3 en
+						adelante.
+					</p>
+				</div>
+				<div class="col-md-7 p20">
+					<div class="mp-title-four-img-content">
+						<h3 class="mp-title-four-img">
+							Lo conectas por <span>Bluetooth</span><br />
+							a tu celular o tablet. ¡Y listo!
+						</h3>
+						<img src="https://i.ibb.co/PTL1W4w/img-final.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="mp-section-five">
+		<div class="container mp-section-five-content">
+			<div class="row">
+				<div class="col-md-5">
+					<img src="https://i.ibb.co/Xs4bp2M/cajas.png" />
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-5 mp-section-five-col-3">
+					<h3 class="mp-title-two">¡No te quedes en el pasado!</h3>
+					<p>
+						Solicita gratis tu lector de tarjetas de crédito. Déjanos tu
+						e-mail y te contactaremos.
+					</p>
+					<div class="input-group mb-3">
+						<input type="text" class="form-control mp-form-control" placeholder="Ingresa tu e-mail..."
+							aria-label="Ingresa tu e-mail..." aria-describedby="basic-addon2" />
+						<span class="input-group-text mp-btn-input-q-p" id="basic-addon2">Quiero probarlo</span>
+					</div>
+				</div>
+			</div>
+			<div class="mp-footer-content">
+				<hr />
+				<span>Copyright © 2021 MercadoPago S.A. Avenida Apoquindo 4800, torre 2,
+					piso 21, Las Condes, Región Metropolitana, Chile.</span>
+				<span class="mp-footer-icon">
+					<i class="icon-facebook-sign"></i>
+					<i class="icon-instagram"></i>
+					<i class="icon-twitter"></i>
+					<i class="icon-linkedin-sign"></i>
+				</span>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>

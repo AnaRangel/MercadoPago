@@ -1,8 +1,7 @@
 /** @format */
 
 body {
-	font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto,
-		Arial, sans-serif;
+	font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
 .mp-nav-link {
@@ -54,9 +53,6 @@ body {
 .mp-section-one-container-one {
 	padding-top: 50px;
 	padding-bottom: 0px;
-}
-
-.mp-section-one-col-one {
 }
 
 .mp-section-one-col-two {
